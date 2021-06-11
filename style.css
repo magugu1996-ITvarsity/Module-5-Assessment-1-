@@ -13,7 +13,7 @@ h1{
     color: white;
 }
 
-/*========================== SUN =========================*/
+/*============ SUN ============*/
 
 #sun{
     position: absolute;
@@ -24,7 +24,7 @@ h1{
     margin-left: -80px;
 }
 
-/*========================== NEPTUNE =======================*/
+/*============ NEPTUNE ============*/
 
 #neptune{
     width: 66px;
@@ -39,7 +39,7 @@ h1{
     position: absolute;
     width: 1204px;
     height: 1204px;
-    bottom: -512px;
+    bottom: -512px; 
     left: 50%;
     margin-left: -602px;
     border: 1px dotted white;
@@ -49,10 +49,10 @@ h1{
 }
 
 #neptune-label{
-    bottom: 692px;
+    bottom: 692px; 
 }
 
-/*========================== URANUS =======================*/
+/*============ URANUS ============*/
 
 #uranus{
     width: 66px;
@@ -67,7 +67,7 @@ h1{
     position: absolute;
     width: 1062px;
     height: 1062px;
-    bottom: -441px;
+    bottom: -441px; 
     left: 50%;
     margin-left: -531px;
     border: 1px dotted white;
@@ -80,7 +80,7 @@ h1{
     bottom: 620px;
 }
 
-/*========================== SATURN =======================*/
+/*============ SATURN ============*/
 
 #saturn{
     width: 110px;
@@ -94,7 +94,7 @@ h1{
     position: absolute;
     width: 876px;
     height: 876px;
-    bottom: -348px;
+    bottom: -348px; 
     left: 50%;
     margin-left: -438px;
     border: 1px dotted white;
@@ -107,22 +107,22 @@ h1{
     bottom: 527px;
 }
 
-/*========================== JUPITER =======================*/
+/*============ JUPITER ============*/
 
-#jupiter {
+#jupiter{
     width: 100px;
     height: 100px;
     margin: 45px;
     z-index: 1000;
-    animation: spin-right 10s linear infinity;
-    -webkit-animation: spin-right 10s linear infinity;
+    animation: spin-right 10s linear infinite;
+    -webkit-animation: spin-right 10s linear infinite;
 }
 
-#jupiter-orbit {
+#jupiter-orbit{
     position: absolute;
     width: 656px;
     height: 656px;
-    bottom: -238px;
+    bottom: -238px; 
     left: 50%;
     margin-left: -328px;
     border: 1px dotted white;
@@ -131,10 +131,11 @@ h1{
     -webkit-animation: spin-left 10s linear infinite;
 }
 
-#jupiter-label {
+#jupiter-label{
     bottom: 417px;
-}  
-/*========================== MARS =======================*/
+}
+
+/*============ MARS ============*/
 
 #mars{
     width: 38px;
@@ -149,7 +150,7 @@ h1{
     position: absolute;
     width: 508px;
     height: 508px;
-    bottom: -164px;
+    bottom: -164px; 
     left: 50%;
     margin-left: -254px;
     border: 1px dotted white;
@@ -162,23 +163,22 @@ h1{
     bottom: 343px;
 }
 
+/*============ EARTH ============*/
 
-/*========================== EARTH =======================*/
-
-#earth {
+#earth{
     width: 50px;
     height: 50px;
     margin: 36px;
     z-index: 1000;
-    animation: spin-right 5s linear infinity;
-    -webkit-animation: spin-right 5s linear infinity;
+    animation: spin-right 5s linear infinite;
+    -webkit-animation: spin-right 5s linear infinite;
 }
 
-#earth-orbit {
+#earth-orbit{
     position: absolute;
     width: 410px;
     height: 410px;
-    bottom: -115px;
+    bottom: -115px; 
     left: 50%;
     margin-left: -205px;
     border: 1px dotted white;
@@ -187,23 +187,26 @@ h1{
     -webkit-animation: spin-left 5s linear infinite;
 }
 
-#earth-label {
-   bottom: 294px; 
-}     
-/*========================== VENUS =======================*/
+#earth-label{
+    bottom: 294px;
+}
 
-#venus {
+/*============ VENUS ============*/
+
+#venus{
     width: 50px;
     height: 50px;
     margin: 16px;
     z-index: 1000;
+    animation: spin-right 5s linear infinite;
+    -webkit-animation: spin-right 5s linear infinite;
 }
 
-#venus-orbit {
+#venus-orbit{
     position: absolute;
     width: 300px;
     height: 300px;
-    bottom: -60px;
+    bottom: -60px; 
     left: 50%;
     margin-left: -150px;
     border: 1px dotted white;
@@ -212,26 +215,26 @@ h1{
     -webkit-animation: spin-left 4s linear infinite;
 }
 
-#venus-label {
+#venus-label{
     bottom: 239px;
-}     
+}
 
+/*============ MECURY ============*/
 
-/*========================== MERCURY =======================*/
-
-#mercury {
+#mercury{
     width: 40px;
     height: 40px;
     margin: 8px;
     z-index: 1000;
+    
 }
 
-#mercury-orbit {
+#mercury-orbit{
     position: absolute;
     z-index: 1;
     width: 200px;
     height: 200px;
-    bottom: -10px;
+    bottom: -10px; 
     left: 50%;
     margin-left: -100px;
     border: 1px dotted white;
@@ -240,17 +243,18 @@ h1{
     -webkit-animation: spin-left 2s linear infinite;
 }
 
-#mercury-label {
-    bottom: 185px;
-}   
-
-/*========================= PLEASE REMOVE =========================*/
-
-#container{
-    transform: scale(0.8, 0.8)translate(0, 700px);
+#mercury-label{
+    bottom: 190px;
 }
 
-/*========================== LABEL BOX =========================*/
+
+/*============ PLEASE REMOVE ============*/
+
+#container{
+    transform: scale(0.8, 0.8) translate(0, 700px);
+}
+
+/*============ LABEL BOX ============*/
 
 .label-box{
     position: absolute;
@@ -266,14 +270,14 @@ h1{
 .label-box a{
     text-decoration: none;
     padding: 0;
-    margin: 0;
+    margin: 0;   
 }
 
 .label-box a:visited{
     color: white;
 }
 
-/*========================== ANIMATION =========================*/
+/*============ ANIMATION =============*/
 
 @keyframes spin-left{
     100%{
@@ -288,3 +292,20 @@ h1{
         -webkit-transform: rotate(360deg);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
